@@ -1,0 +1,71 @@
+[
+{
+	"uri": "http://aliware-os.github.io/sentinel2/en/product_intro/",
+	"title": "What Is Sentinel",
+	"tags": [],
+	"description": "",
+	"content": " Chapter 1 关于 Sentinel Let me give you the best.\n"
+},
+{
+	"uri": "http://aliware-os.github.io/sentinel2/en/quick_start/",
+	"title": "Quick_start",
+	"tags": [],
+	"description": "",
+	"content": " Chapter 2 Quick Start This is your quick start.\n"
+},
+{
+	"uri": "http://aliware-os.github.io/sentinel2/en/product_intro/what_is/",
+	"title": "What is sentinelllllll",
+	"tags": [],
+	"description": "",
+	"content": " What is sentinelllllll Overview Welcome to Nacos!\nNacos is all things about discovery, configure and manage your microservices. Nacos provides users with a group of easy-to-use features set for dynamic service discovery, service configuration management, service and traffic management.\nNacos help users to build, deliver and manage their microservices platform more agile and easier. Nacos is a service infra when users build modern service centric applications by using microservices or cloud native approaches.\nWhat is Nacos？ Service is a first-class citizen in Nacos，Nacos support discovery，configure and manage almost all types of services such as，Kubernetes Service , gRPC| Dubbo RPC Service or Spring Cloud RESTful Service\nThe key features of Nacos are:\n Service Discovery And Service Health Check\nNacos supports both DNS-based and RPC-based (Dubbo/gRPC) service discovery, producer can register a service with native sdk TODO or OpenAPI TODO or by using a dedicated agent TODO, consumer can discovery this service with either DNS TODO or HTTP TODO.\nNacos also do real-time health check for services to prevent sending requests to unhealthy hosts, Nacos support either transport layer (ping or tcp) or application layer (http, redis, mysql, user-define) health check. For complex cloud environments and network topology(VPC, Edge Service etc), Nacos provides both agent mode or server mode health check. Nacos also provide a unity service health dashboard to help to manage the availability and traffic for services.\n Dynamic Configuration Management\nDynamic configuration service allows you to manage the configuration of all applications or services in a centralized, externalized and dynamic manner across all environments.\nDynamic configuration eliminates the need to redeploy applications and services when configuring updates.\nIt can be more convenient to help you achieve stateless services and more easily elastic expansion of service instances on-demand.\nNaocs provide an easy-to-use UI TODO to help you management all of your configurations and provide some out-of-box features such as config version track, canary release and rollback config, client configuration update status tracking etc.\n Dynamic DNS Service\nDynamic DNS services that support weighted routing make it easier for you to implement mid-tier load balancing, flexible routing policies, traffic control, and simple DNS resolution services in your production environment within your data center, helping you to more easily implement DNS-based Service discovery. Nacos provide some simple DNS APIs TODO for managing your DNS domain name and IPs.\n Service Governance and MetaData Management\n  Nacos support manage all for your services and their metadata from the perspective of building the microservices platform. This includes manage the service description, life cycle, static dependencies analysis, service health status, service traffic management，routing and security rules, service SLA and first line metrics et al.\n Check More Features \u0026hellip;  Nacos Landscape As the above Nacos landscape shows, Nacos seamless support many open source encology,such as Dubbo and Dubbo Mesh, Spring Cloud， Kubernetes and CNCF.\nWith Nacos, you can take the advantage of various aspects of Nacos\u0026rsquo;s capabilities to simplify your solutions in service discovery, configuration management, service governance and management, Nacos help to manage your micro-services on these platforms more easier.\nFor how touse Nacos with other open source products, check following docs :\nUse Nacos with Kubernetes Use Nacos with Dubbo Use Nacos with gRPC Use Nacos with Spring Cloud Use Nacos with lstio\nWhat’s next Continue onwards with quick start to get Nacos up and running.\n"
+},
+{
+	"uri": "http://aliware-os.github.io/sentinel2/en/product_intro/about_us/",
+	"title": "About_us",
+	"tags": [],
+	"description": "",
+	"content": " Title 这个快速开始手册是帮忙您快速在你的电脑上，下载安装并使用Nacos。\n1.预备环境准备 请确保是在环境中安装使用:\n1.64bit OS, 支持Linux/Unix/Mac/Windows,推荐选用Linux/Unix/Mac; 2.64bit JDK 1.8+; 3.Maven 3.2.x+;\n2.下载源码\u0026amp;或者下载安装包 你可以通过两种方式来获取nacos。\n从github上下载源码方式  unzip nacos-all.zip cd nacos/ mvn -Prelease-all -DskipTests clean install -U cd distribution/target/nacos-all/nacos\n 下载运行包方式 下载地址 http://nacos.oss-cn-hangzhou.aliyuncs.com/nacos-all.zip\n\u0026gt; unzip nacos-all.zip \u0026gt; cd nacos/\n3.启动服务器 Linux/Unix/Mac 启动命令(standalone代表着单机模式运行，非集群模式): sh startup.sh standalone\nWindows 启动命令(standalone代表着单机模式运行，非集群模式): cmd startup.cmd standalone\n4.服务发现和配置管理 发布服务实例 curl -X PUT \u0026lsquo;http://127.0.0.1:8080/nacos/naming/instance?serviceName=nacos.naming.serviceName\u0026amp;ip=20.18.7.10\u0026amp;port=8080'\n获取服务实例 curl -X GET http://127.0.0.1:8080/nacos/naming/instances?serviceName=nacos.naming.serviceName'\n发布配置 curl -X POST \u0026ldquo;http://127.0.0.1:8080/nacos/basestone.do?method=syncUpdateAll?dataId=nacos.cfg.dataId\u0026amp;group=test\u0026amp;content=helloWorld\u0026quot;\n获取配置 curl -X GET \u0026ldquo;http://127.0.0.1:8080/nacos/config.no?dataId=nacos.cfg.dataId\u0026amp;group=test\u0026quot;\n5.关闭服务器 sh shutdown.sh\n"
+},
+{
+	"uri": "http://aliware-os.github.io/sentinel2/en/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": " Nacos an easy-to-use dynamic service discovery, configuration and service management platform for building cloud native applications\n"
+},
+{
+	"uri": "http://aliware-os.github.io/sentinel2/en/product_intro/use_cases/first_case/",
+	"title": "First_case",
+	"tags": [],
+	"description": "",
+	"content": " First Sample of Use Cases "
+},
+{
+	"uri": "http://aliware-os.github.io/sentinel2/en/quick_start/quick_start_guide/",
+	"title": "Quick_start_guide",
+	"tags": [],
+	"description": "",
+	"content": " Let me show you How it works!\n"
+},
+{
+	"uri": "http://aliware-os.github.io/sentinel2/en/product_intro/use_cases/",
+	"title": "My_use_case",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://aliware-os.github.io/sentinel2/en/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://aliware-os.github.io/sentinel2/en/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
