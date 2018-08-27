@@ -9,7 +9,7 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
+  editURL = "https://github.com/aliware-os/sentinel2/edit/master/content/"
   description = "Documentation for sentinel"
   author = "Aliware Docs"
   showVisitedLinks = true
