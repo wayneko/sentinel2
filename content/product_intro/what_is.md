@@ -1,10 +1,12 @@
 +++
-title = "What is sentinelllllll"
+title = "What is Sentinel"
 date = 2018-08-27T11:44:02+08:00
 weight = 5
 +++
 
-# What is sentinelllllll
+# What is Sentinel
+
+The name should be Sentinel. Please mind the case.
 
 ## Overview
 
